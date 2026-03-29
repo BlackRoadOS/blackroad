@@ -1,7 +1,7 @@
 # BlackRoad OS Academic Paper Series: Complete Index
 **Author**: Alexa L. Amundson (BlackRoad OS, Inc.)
 **Date**: March 29, 2026
-**Total Papers**: 26
+**Total Papers**: 28
 
 ---
 
@@ -58,6 +58,12 @@
 ## Meta
 19. **An Open Letter to Computer Science Departments** — meta — What a JOUR 4251 grad built with AI tools, $800, and no CS degree
 
+## Circular Economy & Environment
+27. **The Device Graveyard: 22 Billion Abandoned Electronics and the Sovereign Mesh** — cs.DC/env — QR onboarding, 5 capability tiers, ROAD rewards, e-waste reduction, 50-100 exaFLOPS untapped
+
+## Standards & Compliance
+28. **The AI Model Bill of Materials** — cs.AI/policy — 23-field JSON-LD schema, transparency scoring, EU AI Act compliance, nutrition-label analogy for AI
+
 ## This Document
 26. **BlackRoad OS Academic Paper Series: Complete Index** — meta — You are reading it.
 
@@ -65,9 +71,9 @@
 
 ## Statistics
 
-- **Total papers**: 26
-- **Estimated total words**: ~95,000
-- **Unique domains covered**: 15 (cs.CR, cs.AI, cs.LO, cs.DC, cs.HC, cs.CY, cs.CE, cs.SE, cs.OS, cs.CL, cs.PL, cs.AR, cs.GR, math.NT, q-bio)
+- **Total papers**: 28
+- **Estimated total words**: ~105,000
+- **Unique domains covered**: 17 (cs.CR, cs.AI, cs.LO, cs.DC, cs.HC, cs.CY, cs.CE, cs.SE, cs.OS, cs.CL, cs.PL, cs.AR, cs.GR, math.NT, q-bio)
 - **References cited**: ~260 (across all papers)
 - **Written in**: 1 session
 - **Written by**: 1 founder + Claude (AI pair programming)
