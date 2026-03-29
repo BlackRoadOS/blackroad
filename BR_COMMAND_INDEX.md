@@ -1,0 +1,200 @@
+# BR Command Index
+
+Generated from `/Users/alexa/bin` on 2026-03-26.
+
+Counts:
+- `br-*`: 60
+- `blackroad-*`: 103
+
+Unified entrypoints:
+- `blackroad`
+- `road`
+- `br <command>` via `/Users/alexa/blackroad/br`
+
+Notes:
+- `blackroad help` and `blackroad status` are working through the repaired dispatcher.
+- A few commands have weak or missing header docs; those are marked `No clear header description`.
+
+## Key Commands
+
+- `blackroad`: Launch BlackRoad Code (local Ollama-powered, unlimited)
+- `br-help`: BlackRoad OS unified help system
+- `br-ai`: BlackRoad AI Hub
+- `br-models`: BlackRoad AI Model Registry
+- `br-status`: Quick terminal status view
+- `br-dashboard`: BlackRoad Dashboard CLI
+- `br-deploy`: BlackRoad OS Deployment Workflow Engine
+- `br-search`: Quick wrapper for unified BlackRoad search
+- `br-security`: BlackRoad Security CLI
+- `blackroad-services`: BlackRoad Service Registry CLI
+- `blackroad-vault`: Fleet-wide secrets management
+- `blackroad-prism`: Live ops console for BlackRoad OS fleet
+
+## `br-*` Commands
+
+- `br-ai`: BlackRoad AI Hub
+- `br-api`: BlackRoad API CLI - Unlimited Provider Access
+- `br-box`: usage: br-box X Y W H
+- `br-capture`: Captures stdin to a temp file while passing through
+- `br-capture-all`: Capture last N lines from all named BlackRoad agent panes
+- `br-clear-box`: usage: br-clear-box X Y W H
+- `br-code`: No clear header description
+- `br-code-assistant`: BlackRoad Local Coding Assistant
+- `br-color`: Zone definitions from BR_COLOR_SPEC.md
+- `br-dashboard`: BlackRoad Dashboard CLI
+- `br-deploy`: BlackRoad OS Deployment Workflow Engine
+- `br-dispatch`: No clear header description
+- `br-duo`: Agent pair run and capture helper
+- `br-enterprise-runner`: No clear header description
+- `br-enterprise-runner-bootstrap`: No clear header description
+- `br-errors`: BlackRoad Error Monitor - Real-time provider limit tracking
+- `br-fleet-ai`: Fleet AI status and orchestration dashboard
+- `br-funnel`: No clear header description
+- `br-gateway`: Manage the BlackRoad AI Gateway (`api.blackroad.io`)
+- `br-generate`: Generate AI images via `images.blackroad.io`
+- `br-gui`: Quick launcher for BlackRoad terminal GUI
+- `br-gui-fixed`: Quick launcher for terminal GUI system
+- `br-header`: Shared branded header for all BR terminal apps
+- `br-help`: BlackRoad OS unified help system
+- `br-hw`: BlackRoad OS Hardware Profile Manager
+- `br-index`: BlackRoad Empire Intelligence System
+- `br-infer`: Production AI inference across the fleet
+- `br-kpi`: Live KPI dashboard and resume data updater
+- `br-launch`: Branded animation launcher
+- `br-linkedin`: BlackRoad OS LinkedIn CLI
+- `br-live`: Live BR Visual Language Display
+- `br-live-demo`: Canonical BR shapes
+- `br-live-enhanced`: Live BR Visual Language Display
+- `br-live-monitor`: Real-time BlackRoad OS terminal dashboard
+- `br-loop`: usage: br-loop [ROUNDS]
+- `br-models`: BlackRoad AI Model Registry
+- `br-notify`: No clear header description
+- `br-pack`: BlackRoad OS Script Pack Manager
+- `br-palette`: Zone definitions from BR_COLOR_SPEC.md
+- `br-panels`: No clear header description
+- `br-run`: Run an Ollama model and extract operational steps
+- `br-schedule`: No clear header description
+- `br-search`: Quick wrapper for unified BlackRoad search
+- `br-secret`: Retrieve credentials from macOS Keychain
+- `br-security`: BlackRoad Security CLI
+- `br-send`: Find pane by title
+- `br-shape`: Canonical shape mapping per BR color spec zones
+- `br-slack`: No clear header description
+- `br-ssh`: No clear header description
+- `br-stats`: BlackRoad Portfolio Statistics CLI (BR Visual Language Enhanced)
+- `br-stats-enhanced`: BlackRoad Portfolio Statistics CLI (BR Visual Language Enhanced)
+- `br-status`: Quick terminal status view
+- `br-sync`: BlackRoad Cross-Repo Sync CLI
+- `br-turn`: usage: br-turn AGENT X Y W H
+- `br-type`: No clear header description
+- `br-type-box`: usage: br-type-box X Y W H
+- `br-upload`: Upload images to `images.blackroad.io` from any node
+- `br-video`: BlackRoad Video Production System
+- `br-video-create`: No clear header description
+- `br-web`: Expects first line to be a file path
+
+## `blackroad-*` Commands
+
+- `blackroad-advanced-experiments.sh`: Script file with no clear header description
+- `blackroad-agent`: Universal BlackRoad Agent CLI
+- `blackroad-agents`: BlackRoad Agent Coordination Hub
+- `blackroad-ai`: BlackRoad AI - Unlimited local AI assistant
+- `blackroad-ai.bak`: BlackRoad AI - Unlimited local AI assistant
+- `blackroad-alice`: ALICE - The Operator
+- `blackroad-all-reports`: Generate all reports at once
+- `blackroad-api`: Check all BlackRoad API endpoints across the fleet
+- `blackroad-apis`: Extract all API endpoints, routes, services
+- `blackroad-aria`: ARIA - The Interface
+- `blackroad-art`: Terminal art
+- `blackroad-arxiv-prep`: Prepare paper for arXiv submission
+- `blackroad-ask-all`: Ask all agents the same question in parallel
+- `blackroad-auth`: Identity & Access Management CLI
+- `blackroad-backup`: Fleet-wide backup management
+- `blackroad-boot`: No clear header description
+- `blackroad-breakthroughs`: Find the breakthrough moments
+- `blackroad-broadcast`: Broadcast message to all agents
+- `blackroad-cache`: No clear header description
+- `blackroad-call`: Call any BlackRoad agent on any device
+- `blackroad-chat`: Interactive chat with an agent
+- `blackroad-cluster`: Live cluster status
+- `blackroad-codex`: No clear header description
+- `blackroad-command-center`: BlackRoad OS command center
+- `blackroad-concepts`: Extract key concepts and their relationships
+- `blackroad-config`: Fleet-wide configuration management
+- `blackroad-container`: Fixed br-container with proper escape handling
+- `blackroad-containers`: Container orchestrator CLI (`kubectl`-like)
+- `blackroad-count-files`: Get file count from the repo's default branch
+- `blackroad-dashboard`: BlackRoad Dashboard CLI
+- `blackroad-dashboards`: BlackRoad Dashboard Command Center - Ultimate Edition
+- `blackroad-db`: Distributed Database CLI
+- `blackroad-deploy`: Brand-enforcing Wrangler wrapper
+- `blackroad-dns`: No clear header description
+- `blackroad-emoji`: No clear header description
+- `blackroad-equations`: Equation analyzer for type and novelty
+- `blackroad-exec`: Execute commands across BlackRoad fleet
+- `blackroad-exotic-mega-experiment.sh`: Script file with no clear header description
+- `blackroad-experiment-orchestrator.sh`: Script file with no clear header description
+- `blackroad-extract-equations`: Extract every equation from all BlackRoad repositories
+- `blackroad-find-collaborators`: Find potential collaborators based on framework components
+- `blackroad-fleet`: BlackRoad Fleet Orchestrator (local version)
+- `blackroad-framework-summary`: Generate executive summary of framework
+- `blackroad-funnel`: Routes input to agent or subsystem
+- `blackroad-gateway`: BlackRoad API Gateway CLI (local)
+- `blackroad-github`: BlackRoad GitHub Actions Monitor
+- `blackroad-gpio-led-experiments.sh`: Script file with no clear header description
+- `blackroad-gpio-led-experiments.sh.pre-purge`: Script file with no clear header description
+- `blackroad-gpio-led-experiments.sh.purge`: Script file with no clear header description
+- `blackroad-gui`: Quick launcher for terminal GUI system
+- `blackroad-health`: Get health stats from all agents
+- `blackroad-help`: BlackRoad CLI quick reference
+- `blackroad-infinite-todos`: Generate infinite todos for everything not yet online or documented
+- `blackroad-innovations`: Extract every unique innovation, idea, and breakthrough
+- `blackroad-integrations`: Check memory
+- `blackroad-internet`: Internet status dashboard
+- `blackroad-k8s-service-template.sh`: Kubernetes service template
+- `blackroad-lb`: No clear header description
+- `blackroad-live`: Live infrastructure dashboard
+- `blackroad-logs`: Centralized Logging CLI
+- `blackroad-lucidia`: LUCIDIA - The Dreamer
+- `blackroad-macro-dashboard`: High-level overview dashboard
+- `blackroad-memory`: Distributed memory management
+- `blackroad-mesh`: Mesh network management
+- `blackroad-micro-dashboard`: Zoomed-in dashboard for specific components
+- `blackroad-mq`: Message Queue CLI
+- `blackroad-notify`: No clear header description
+- `blackroad-octavia`: OCTAVIA - The Architect
+- `blackroad-ops`: BlackRoad Operations Extension
+- `blackroad-os`: No clear header description
+- `blackroad-paper-checklist`: Pre-publication checklist for academic papers
+- `blackroad-password`: Color password generator
+- `blackroad-physical-led-quantum.sh`: Script file with no clear header description
+- `blackroad-physics-checker`: Check whether physics claims are consistent
+- `blackroad-prism`: Live ops console for BlackRoad OS fleet
+- `blackroad-quantum`: Quantum computing visualizer
+- `blackroad-quantum-trinary-experiments.sh`: Script file with no clear header description
+- `blackroad-reading-guide`: Living documentation system for Claude agents
+- `blackroad-registry`: No clear header description
+- `blackroad-revenue`: Revenue dashboard
+- `blackroad-revenue-model`: Revenue opportunities from the framework
+- `blackroad-rgb-hardware-detector.sh`: Script file with no clear header description
+- `blackroad-roadchain`: Blockchain operations
+- `blackroad-run`: Executes a BlackRoad agent
+- `blackroad-schedule`: No clear header description
+- `blackroad-security`: BlackRoad Security CLI
+- `blackroad-services`: BlackRoad Service Registry CLI
+- `blackroad-shell`: BlackRoad Shell Interpreter
+- `blackroad-shellfish`: SHELLFISH - The Hacker
+- `blackroad-social-media`: Generate social media content about the framework
+- `blackroad-stats`: Portfolio stats live Git version
+- `blackroad-stats-history`: Stats history tracker
+- `blackroad-stats.old`: Generate comprehensive codebase statistics
+- `blackroad-status`: Quick terminal status view
+- `blackroad-sync`: No clear header description
+- `blackroad-synchronized-led-show.sh`: Script file with no clear header description
+- `blackroad-task`: Queue a task for an agent to execute
+- `blackroad-tmux`: BlackRoad OS ultimate command center
+- `blackroad-todos`: Extract every TODO, idea, dream, and wish
+- `blackroad-vault`: Fleet-wide secrets management
+- `blackroad-wake`: Wake or ping all agents
+- `blackroad-web`: Render web pages and HTML in terminal
+- `blackroad-window`: Terminal GUI with containers, panels, and web rendering

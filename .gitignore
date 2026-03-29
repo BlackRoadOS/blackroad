@@ -1,0 +1,6 @@
+# Secrets - never commit
+.env
+*.secret
+credentials*
+.env.secrets
+.vercel
