@@ -1,0 +1,42 @@
+name: Auto Index — Submit Sitemaps
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit all sitemaps to IndexNow
+        run: |
+          DOMAINS=(
+            blackroad.io tutor.blackroad.io search.blackroad.io
+            chat.blackroad.io gateway.blackroad.io amundson.blackroad.io
+            aliceqi.com blackboxprogramming.io blackroadai.com
+            blackroadinc.us blackroadqi.com blackroadquantum.com
+            lucidia.earth lucidia.studio lucidiaqi.com
+            roadchain.io roadcoin.io blackroad.company
+            blackroad.me blackroad.network blackroad.systems
+          )
+          
+          for domain in "${DOMAINS[@]}"; do
+            encoded=$(python3 -c "import urllib.parse; print(urllib.parse.quote('https://$domain'))")
+            curl -s "https://api.indexnow.org/indexnow?url=$encoded&key=blackroad-indexnow" > /dev/null
+            echo "Submitted: $domain"
+          done
+          
+          # Also submit key pages
+          for page in \
+            "https://blackroad.io/about" \
+            "https://blackroad.io/roadmap" \
+            "https://blackroad.io/metrics" \
+            "https://blackroad.io/launch" \
+            "https://gateway.blackroad.io/ask" \
+            "https://gateway.blackroad.io/pricing" \
+            "https://tutor.blackroad.io/daily" \
+            "https://tutor.blackroad.io/subjects"; do
+            encoded=$(python3 -c "import urllib.parse; print(urllib.parse.quote('$page'))")
+            curl -s "https://api.indexnow.org/indexnow?url=$encoded&key=blackroad-indexnow" > /dev/null
+          done
+          echo "All sitemaps and key pages submitted"
